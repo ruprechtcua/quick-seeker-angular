@@ -1,0 +1,6 @@
+&nbsp;
+<div class="seek-element" ng-repeat="posting in postings | slice:0:count" ng-click="open(posting.id)">
+<div class="text-info"><strong>{{posting.title | clean}}</strong></div>
+<div><small>{{posting.workType}}</small></div>
+<div class="text-muted"><small>{{posting.advertiser.description}}</small></div>
+</div>
