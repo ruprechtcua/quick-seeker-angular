@@ -1,6 +1,8 @@
 # quick-seeker-angular
 A seek.com directive to easily embed the latest job posting in [seek.com.au](http://seek.com)
 
+![alt tag](https://raw.githubusercontent.com/ruprechtcua/quick-seeker-angular/master/readme/screenshot.png)
+
 ## Build, Test, Deploy
 ```
 npm install
