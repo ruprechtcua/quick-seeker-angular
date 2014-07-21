@@ -20,6 +20,15 @@ grunt
 
 ## How to use it
 
+Include CSS JS from /dist and copy /views/posting.html 
+```
+<!-- CSS -->
+<link rel="stylesheet" href="styles/seek.min.css">
+
+<!-- JS -->
+<script src="scripts/seek.min.js"></script>
+```
+
 You must include the seeker-directive dependency on your angular module:
 ```
 var app = angular.module("demoapp", ["seeker"]);
