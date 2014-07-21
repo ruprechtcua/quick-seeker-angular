@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <!-- endbower -->
     <!-- endbuild -->
-    <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
+    <!-- build:css(.tmp) styles/seek.min.css -->
+    <link rel="stylesheet" href="styles/seek.css">
     <!-- endbuild -->
+    <link rel="stylesheet" href="styles/main.css">
   </head>
   <body ng-app="seeker">
     <!--[if lt IE 7]>
@@ -21,38 +22,27 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="container">
-   
-      <img src="http://www.seek.com.au/content/images/logos/logo-seek-main@2x.gif" height="30px" width="70px">
 
-      <!--<div ng-include="'views/main.html'" ng-controller="MainCtrl"></div>-->
+    <div class="sample">
+      <img src="http://www.seek.com.au/content/images/logos/logo-seek-main@2x.gif" height="50px" width="115px">
       
       <div class="seek-list">
         <!--Displays 20 items | with keywords 'front' | classification: IT | location: Victoria -->
-        <seek count="20" keywords="front" classification="6281" location="3106"></seek>
+        <seek count="20" keywords="java or front" classification="6281" location="3106"></seek>
       </div>
 
     </div>
 
-
-    <!-- build:js(.) scripts/oldieshim.js -->
-    <!--[if lt IE 9]>
-    <script src="bower_components/es5-shim/es5-shim.js"></script>
-    <script src="bower_components/json3/lib/json3.min.js"></script>
-    <![endif]-->
-    <!-- endbuild -->
-
-    <!-- build:js(.) scripts/vendor.js -->
+    <!-- build:js(.) scripts/vendor.min.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/json3/lib/json3.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/angular-resource/angular-resource.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
-        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <!-- build:js({.tmp,app}) scripts/seek.min.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/filters/slice.js"></script>
         <script src="scripts/filters/clean.js"></script>

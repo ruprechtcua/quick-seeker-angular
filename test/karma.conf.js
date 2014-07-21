@@ -18,13 +18,20 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
+      'bower_components/jquery/dist/jquery.min.js',
       'bower_components/angular/angular.js',
       'bower_components/angular-mocks/angular-mocks.js',
       'bower_components/angular-resource/angular-resource.js',
       'app/scripts/**/*.js',
       //'test/mock/**/*.js',
-      'test/spec/**/*.js'
+      'test/spec/**/*.js',
+      'app/views/*.html'
     ],
+
+    preprocessors : {
+      // generate js files from html templates
+      'app/views/*.html': ['ng-html2js']
+    },
 
     // list of files / patterns to exclude
     exclude: [],
@@ -47,6 +54,7 @@ module.exports = function(config) {
     // Which plugins to enable
     plugins: [
       'karma-phantomjs-launcher',
+      'karma-ng-html2js-preprocessor',
       'karma-jasmine'
     ],
 

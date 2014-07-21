@@ -5,6 +5,7 @@ angular.module('seeker')
 
   return {
   	restrict: 'E',
+  	replace: true,
     scope: {
       count: '@',
       keywords: '@',

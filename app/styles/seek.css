@@ -1,0 +1,10 @@
+.seek-element {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.seek-element:hover{
+  background-color:#F2F2F2;
+}
+
