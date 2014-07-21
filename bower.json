@@ -1,6 +1,7 @@
 {
-  "name": "yo",
-  "version": "0.0.0",
+  "name": "quick-seeker-angular",
+  "version": "0.1.0",
+  "author": "Ruprecht Cua",
   "dependencies": {
     "angular": "1.2.16",
     "bootstrap": "~3.2.0",
