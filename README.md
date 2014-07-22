@@ -45,6 +45,7 @@ After that, you must include the markup directive on your HTML page, like this:
 + classification - job posting classification. e.g. 6281 is IT
 + location - job posting location. e.g. 3106 is Victoria
 
-Currently don't have the list of classification and location which seek.com.au api accepts. Crawling can be done do list all possible values.
+Currently don't have the list of classification and location which seek.com.au api accepts. 
+TO-DO: Crawling can be done to list all possible values.
 
 
